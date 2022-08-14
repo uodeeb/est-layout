@@ -19,12 +19,43 @@
         "ft"
         ;
     }
-
+/*___________header_________________*/
         #hd {
             grid-area: hd;
             background: darkgray;
+            display: flex;
         }
-    
+        
+        #nav {
+            display: flex;
+            align-items: center;
+        }
+
+        #search {
+            display: flex;
+            align-items: center;
+        }
+        .navbar__list {
+            display: flex;
+            color: #fff;
+            list-style: none;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar__list li{
+            margin: 8px;
+        }
+
+        #nav {
+             flex: 9;
+        }
+
+        #search {
+            flex: 3;
+        }
+/*______________main___________________*/
         #mn {
             grid-area: mn;
             background: rgb(159, 43, 43);
