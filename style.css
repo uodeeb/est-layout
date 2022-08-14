@@ -5,6 +5,41 @@
         margin: 0px;
         background: rgb(208, 43, 43) ;
     }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 10vh 60vh 20vh 10vh;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "hd"
+        "mn"
+        "sd"
+        "ft"
+        ;
+    }
+
+        #hd {
+            grid-area: hd;
+            background: darkgray;
+        }
+    
+        #mn {
+            grid-area: mn;
+            background: rgb(159, 43, 43);
+        }
+    
+        #sd {
+            grid-area: sd;
+            background: rgb(31, 141, 79);
+        }
+    
+        #ft {
+            grid-area: ft;
+            background: darkgray;
+        }
+
 }
 
 
@@ -17,6 +52,39 @@
         margin: 0px;
         background: rgb(43, 208, 57) ;
     }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 10vh 80vh 10vh;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "hd hd"
+        "mn sd"
+        "ft ft"
+        ;
+    }
+
+        #hd {
+            grid-area: hd;
+            background: darkgray;
+        }
+    
+        #mn {
+            grid-area: mn;
+            background: rgb(159, 43, 43);
+        }
+    
+        #sd {
+            grid-area: sd;
+            background: rgb(31, 141, 79);
+        }
+    
+        #ft {
+            grid-area: ft;
+            background: darkgray;
+        }
 }
 
 
@@ -32,4 +100,37 @@
         margin: 0px;
         background: rgb(235, 238, 71) ;
     }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 10vh 80vh 10vh;
+        grid-template-columns: 5fr 2fr;
+        grid-template-areas: 
+        "hd hd"
+        "mn sd"
+        "ft ft"
+        ;
+    }
+
+        #hd {
+            grid-area: hd;
+            background: darkgray;
+        }
+    
+        #mn {
+            grid-area: mn;
+            background: rgb(159, 43, 43);
+        }
+    
+        #sd {
+            grid-area: sd;
+            background: rgb(31, 141, 79);
+        }
+    
+        #ft {
+            grid-area: ft;
+            background: darkgray;
+        }
 }
